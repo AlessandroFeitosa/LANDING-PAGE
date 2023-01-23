@@ -1,0 +1,58 @@
+ <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="900" height="500" >
+	<rect id="rect" x="150" y="100" width="600" height="300" stroke="white" stroke-width="0.5" fill="black" fill-opacity="0.2"></rect>
+        <line x1="0" y1="0" x2="150" y2="100" stroke="white" stroke-width="0.5" ></line>
+	<line x1="900" y1="0" x2="750" y2="100" stroke="white" stroke-width="0.5"></line> 
+        <line x1="0" y1="500" x2="150" y2="400" stroke="white" stroke-width="0.5" ></line>
+	<line x1="900" y1="500" x2="750" y2="400" stroke="white" stroke-width="0.5"></line> 
+            <rect x="0" y="0" width="40" height="40" stroke="black" stroke-width="1" fill-opacity="0">
+
+                <animate id="a1" attributeName="x" from="0" to="600" dur="2s" begin="0s;an.end"  />
+                <animate attributeName="y" from="500" to="200" dur="2s" begin="0s;an.end" />
+
+
+                <animate id="a2" attributeName="x" from="600" to="650" dur="1s" begin="2s;a1.end" />
+                <animate attributeName="y" from="200" to="150" dur="1s" begin="2s;a1.end" />
+
+
+                <animate id="a3" attributeName="x" from="650" to="650" dur="1s" begin="3s;a2.end" />
+                <animate attributeName="y" from="150" to="150" dur="1s" begin="3s;a2.end" />
+
+
+		<animate id="a4" attributeName="width" from="40" to="30" dur=".2s" begin="3s;a2.end"/>
+		<animate attributeName="height" from="40" to="30" dur=".2s" begin="3s;a2.end"/>
+
+
+		<animate id="a5" attributeName="x" from="650" to="655" dur=".2s" begin="3s;a2.end"/>
+		<animate attributeName="y" from="150" to="155" dur=".2s" begin="3s;a2.end"/>
+
+
+                <animate id="a6" attributeName="x" from="650" to="150" dur="2s" begin="4s;a3.end" />
+                <animate attributeName="y" from="150" to="350" dur="2s" begin="4s;a3.end" />
+
+
+                <animate id="a7" attributeName="x" from="150" to="150" dur="1s" begin="6s;a6.end" />
+                <animate attributeName="y" from="350" to="350" dur="1s" begin="6s;a6.end" />
+
+		<animate id="a8" attributeName="width" from="40" to="30" dur=".2s" begin="6s;a6.end"/>
+		<animate attributeName="height" from="40" to="30" dur=".2s" begin="6s;a6.end"/>
+
+
+                <animate id="a9" attributeName="x" from="150" to="155" dur=".2s" begin="6s;a6.end" />
+                <animate attributeName="y" from="350" to="355" dur=".2s" begin="6s;a6.end" />
+
+
+		<animate id="aa" attributeName="x" from="150" to="0" dur="2s" begin="7s;a7.end" />
+                <animate attributeName="y" from="350" to="500" dur="2s" begin="7s;a7.end" />
+
+
+            </rect>
+	    <rect x="170" y="170" width="500" height="200" stroke="black" stroke-width="0" fill-opacity="0">
+		<animate id="ab" attributeName="stroke-width" from="0" to="1" dur="1s" begin="6s;a6.end" />
+		<animate attributeName="fill-opacity" from="0" to=".2" dur="1s" begin="6s;a6.end" />
+		<animate id="an" attributeName="stroke-width" from="1" to="1" dur="2s" begin="7s;ab.end" />
+		<animate attributeName="fill-opacity" from=".2" to=".2" dur="2s" begin="7s;ab.end"  />
+
+            </rect>
+
+
+        </svg>
