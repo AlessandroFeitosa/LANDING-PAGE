@@ -291,6 +291,7 @@ h2 {
     height: 100vh;
     border: 1px solid #000;
     text-align: center;
+    overflow: scroll;
 }
 
 .janela-imagem {
