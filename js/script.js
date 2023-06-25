@@ -31,7 +31,8 @@ function abreJanela() {
     const janelaImagem = document.querySelector(".janela-imagem");
     for (let i = 0; i < botao.length; i++) {
         botao[i].addEventListener("click", function () {
-            janelaTransparente.style.display = 'block';
+            janelaTransparente.style.display = 'flex';
+            janelaTransparente.style.alignItems = 'center';
             janelaImagem.src = selecionaImagem(i);
         });
     }

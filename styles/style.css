@@ -240,7 +240,7 @@ h2 {
     justify-content: center;
     margin: 0 auto;
     padding: 2rem;
-    text-shadow: 1px 1px #000;
+    text-shadow: 2px 2px #000;
 }
 
 /* -------------- SEÇÃO 3 - Top 3 --------------- */
@@ -299,7 +299,6 @@ h2 {
     margin-right: auto;
     max-width: 80%;
     max-height: 85vh;
-    margin-top: 10rem;
     border: 2px solid var(--thirth-color);
 }
 
