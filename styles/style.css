@@ -88,6 +88,12 @@ aside nav ul a:hover::after {
     bottom: 1rem;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
 h2 {
 
     font-family: var(--font-secondary);
